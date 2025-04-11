@@ -11,7 +11,7 @@ const app = express();
 const port = process.env.PORT || 5001;
 
 // Middleware
-app.use(cors({ origin: 'https://student-job-tracker-frontend-theta.vercel.app' }));
+app.use(cors({ origin: 'https://student-job-tracker-frontend-kx8s.vercel.app' }));
 app.use(express.json());
 
 // MongoDB connection
